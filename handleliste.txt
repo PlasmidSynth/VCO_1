@@ -1,0 +1,6 @@
+X Nye opamper
+X LM4040-10 .1%/.2%/.5%
+X Motstander, 0.1% der det (faktisk) trengs
+- breakout board for SOIC8
+X breakout board for SOIC14
+- breakout board for SOT363
