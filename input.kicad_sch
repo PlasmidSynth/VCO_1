@@ -1446,7 +1446,7 @@
     (pin "1" (uuid ebb793f4-166b-4947-8607-da9f2544cbfd))
     (pin "2" (uuid bf8b89e4-a156-46b6-8e62-76b414255faa))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "R11") (unit 1)
         )
@@ -1472,7 +1472,7 @@
     (pin "1" (uuid f2618948-8d26-49e7-bffb-7ab1dd9aea41))
     (pin "2" (uuid 33da952b-5b67-474a-b18c-9830309a3747))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "R23") (unit 1)
         )
@@ -1498,7 +1498,7 @@
     (pin "1" (uuid ba1f2c37-2295-4f5d-8069-e182f14cc193))
     (pin "2" (uuid 5701fa25-4880-4a74-9246-a9e725d05def))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "R24") (unit 1)
         )
@@ -1524,7 +1524,7 @@
     (pin "1" (uuid ea1aa3fe-5e99-4ddd-960b-78d8d3219b74))
     (pin "2" (uuid 3a1f8799-5ba9-40cc-b0d6-99abd39c7013))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "R25") (unit 1)
         )
@@ -1550,7 +1550,7 @@
     (pin "2" (uuid c1c47efb-9b0b-46a4-9adb-e7f581da28b4))
     (pin "1" (uuid 91b1035d-8b26-440a-b4ac-3345e2567a04))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "TH1") (unit 1)
         )
@@ -1576,7 +1576,7 @@
     (pin "1" (uuid de422886-acaf-44d1-9897-18376e41caac))
     (pin "2" (uuid 074a880f-8e91-4e09-9b62-f04eb3562905))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "R12") (unit 1)
         )
@@ -1602,7 +1602,7 @@
     (pin "1" (uuid 0c0f8170-9d15-4890-b7f8-637a851985d0))
     (pin "2" (uuid d4cdaae1-8dd7-4694-b1ad-9df1cbad6fb9))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "R21") (unit 1)
         )
@@ -1627,7 +1627,7 @@
     )
     (pin "1" (uuid d0f5b1f6-dd3b-42f1-b2df-7226db61d2e0))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "J5") (unit 1)
         )
@@ -1653,7 +1653,7 @@
     (pin "1" (uuid abf13bb0-8c5b-43a0-afbf-f15cd54b79a0))
     (pin "2" (uuid 8aef12ea-4809-4287-a6ba-8a5f2a8d9114))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "R9") (unit 1)
         )
@@ -1679,7 +1679,7 @@
     (pin "1" (uuid 0ccbd91b-4e6d-4f77-98d9-0b63dc68a27a))
     (pin "2" (uuid 14da85c7-d935-4aa9-a9fb-279b7c344cbf))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "R16") (unit 1)
         )
@@ -1705,7 +1705,7 @@
     (pin "1" (uuid 53ca90b3-3b61-4f45-9bd8-203250c2ce1a))
     (pin "2" (uuid 613ef180-320f-4bae-9310-2b63c17b52e3))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "C8") (unit 1)
         )
@@ -1731,7 +1731,7 @@
     (pin "1" (uuid 5a20ef22-7074-4815-9cbd-c61787fb62e7))
     (pin "2" (uuid 77a7b637-0c84-4e19-9e73-1f08657a51bc))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "R28") (unit 1)
         )
@@ -1756,7 +1756,7 @@
     )
     (pin "1" (uuid a954eaa7-c614-4238-9385-fbbe433f4159))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "#PWR012") (unit 1)
         )
@@ -1781,7 +1781,7 @@
     )
     (pin "1" (uuid 70974bc1-6d80-446a-b70c-32b40a4f4cc3))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "#PWR013") (unit 1)
         )
@@ -1792,7 +1792,7 @@
   (symbol (lib_id "Amplifier_Operational:OPA1679") (at 157.48 87.63 0) (mirror x) (unit 4)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e64fbea-8965-468d-ad02-95e452e94083)
-    (property "Reference" "U8" (at 157.48 82.55 0)
+    (property "Reference" "U4" (at 157.48 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "OPA1679" (at 158.75 92.71 0)
@@ -1819,9 +1819,9 @@
     (pin "11" (uuid bbc59cec-4170-400b-99af-a0db65d5f17d))
     (pin "4" (uuid 1901a0bd-ee66-4191-918a-7ada4110115c))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
-          (reference "U8") (unit 4)
+          (reference "U4") (unit 4)
         )
       )
     )
@@ -1844,7 +1844,7 @@
     )
     (pin "1" (uuid e6e35243-64a8-44ac-b2ef-3d31e472258e))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "#PWR015") (unit 1)
         )
@@ -1870,7 +1870,7 @@
     (pin "1" (uuid f69d651d-3d16-432f-bfa2-0a4aa653a13a))
     (pin "2" (uuid b2a02fa1-3914-4d03-972a-e0e466844e29))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "R19") (unit 1)
         )
@@ -1896,7 +1896,7 @@
     (pin "1" (uuid 79f5b091-18bf-43aa-89da-d51bac5fcdde))
     (pin "2" (uuid 3ca1edf4-4d25-4d35-b5bc-1d017efeef70))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "R18") (unit 1)
         )
@@ -1921,7 +1921,7 @@
     )
     (pin "1" (uuid 2bd2ff21-cb76-45f6-8038-b91d998f3670))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "#PWR014") (unit 1)
         )
@@ -1946,7 +1946,7 @@
     )
     (pin "1" (uuid 339aa701-c1b3-4c06-b933-d4b2c3fd1ac7))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "#PWR011") (unit 1)
         )
@@ -1973,7 +1973,7 @@
     (pin "2" (uuid 0e7528f6-20b1-433a-880e-b91c54382272))
     (pin "3" (uuid 7dffe85e-987f-41a5-bd51-497fc3ec4563))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "RV2") (unit 1)
         )
@@ -1999,7 +1999,7 @@
     (pin "1" (uuid a9e0f23d-def5-420f-8dc8-e57a57e6b04d))
     (pin "2" (uuid 0a667be6-9b20-436e-8b8f-c161823e3ed9))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "R26") (unit 1)
         )
@@ -2025,7 +2025,7 @@
     (pin "1" (uuid cad5c1b0-ba43-4b29-b259-a4c1b2d8b797))
     (pin "2" (uuid 2798a872-f4e7-4dd6-9458-f18fdf57daab))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "R13") (unit 1)
         )
@@ -2051,7 +2051,7 @@
     (pin "1" (uuid f7270f0a-32a6-47ab-8e2e-63c3d33c377e))
     (pin "2" (uuid 3dc379a1-d906-488d-8cbb-89a2debcb03f))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "R22") (unit 1)
         )
@@ -2077,7 +2077,7 @@
     (pin "1" (uuid cfe4aa75-655a-4474-8212-4ec6a4fdc583))
     (pin "2" (uuid a46cf8fa-e5fd-4089-82b0-d29222091069))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "R10") (unit 1)
         )
@@ -2103,7 +2103,7 @@
     (pin "1" (uuid 7225bb35-ad8b-480d-abfa-02e1833fd787))
     (pin "2" (uuid 73930d64-57a4-44f4-9cf0-67aecb44b834))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "R14") (unit 1)
         )
@@ -2114,7 +2114,7 @@
   (symbol (lib_id "Amplifier_Operational:OPA1679") (at 191.77 91.44 0) (mirror x) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b6201234-1617-45f6-a3ba-52ab5eda1bbf)
-    (property "Reference" "U8" (at 191.77 86.36 0)
+    (property "Reference" "U4" (at 191.77 86.36 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "OPA1679" (at 193.04 96.52 0)
@@ -2141,9 +2141,9 @@
     (pin "11" (uuid 759de471-7869-4a1b-80f6-821ce53619b5))
     (pin "4" (uuid 61f7488a-996b-426f-9d05-993692a2172f))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
-          (reference "U8") (unit 3)
+          (reference "U4") (unit 3)
         )
       )
     )
@@ -2176,7 +2176,7 @@
     (pin "8" (uuid ce5442de-26fe-47e3-b874-6646a5262a34))
     (pin "9" (uuid 656e76d0-5d83-45ad-9165-f649a4cee694))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "SW2") (unit 1)
         )
@@ -2202,7 +2202,7 @@
     (pin "1" (uuid a7c27116-0dd3-4e3a-909e-db202262a163))
     (pin "2" (uuid 82899e69-51cf-4267-974a-d6255c56ef14))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "R27") (unit 1)
         )
@@ -2213,7 +2213,7 @@
   (symbol (lib_id "Amplifier_Operational:OPA1679") (at 191.77 63.5 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c96d920e-50c4-42fe-af8f-f6fcbd68c74d)
-    (property "Reference" "U8" (at 191.77 58.42 0)
+    (property "Reference" "U4" (at 191.77 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "OPA1679" (at 193.04 68.58 0)
@@ -2240,9 +2240,9 @@
     (pin "11" (uuid e9680eb9-7e26-4cd5-908d-d6e1d17c1212))
     (pin "4" (uuid 52e71ca7-e781-4746-87cf-74d6e7589c45))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
-          (reference "U8") (unit 2)
+          (reference "U4") (unit 2)
         )
       )
     )
@@ -2266,7 +2266,7 @@
     (pin "1" (uuid 2cd4bee4-4e52-40a3-9b62-8c327534988b))
     (pin "2" (uuid 8429cb81-3ef9-4235-8d32-786a06b1b35b))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "R56") (unit 1)
         )
@@ -2292,7 +2292,7 @@
     (pin "1" (uuid 95eb79bf-6ed8-495d-86c5-383b0334ad47))
     (pin "2" (uuid 3bbf9988-fde8-467d-9bd7-d827b5a2118a))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "R17") (unit 1)
         )
@@ -2318,7 +2318,7 @@
     (pin "1" (uuid cbb12dc1-58b3-4261-b0cb-15efaede8e69))
     (pin "2" (uuid 12f4fed5-d876-40f2-a79c-4d981b5b07e2))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "R7") (unit 1)
         )
@@ -2335,7 +2335,7 @@
     (property "Value" "10k" (at 127 165.1 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" (at 127 165.1 0)
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3006P_Horizontal" (at 127 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 127 165.1 0)
@@ -2345,7 +2345,7 @@
     (pin "2" (uuid f5a4e3f7-f5e7-424f-a0f4-079096194874))
     (pin "3" (uuid 114df6a4-c458-4740-be62-23066a948bb9))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "RV3") (unit 1)
         )
@@ -2370,7 +2370,7 @@
     )
     (pin "1" (uuid 951a5643-b2f5-448b-9f9e-9580710b8c85))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "J3") (unit 1)
         )
@@ -2381,7 +2381,7 @@
   (symbol (lib_id "Amplifier_Operational:OP275") (at 238.76 133.35 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e61037ba-f0df-42c3-b187-f3bb2e293c43)
-    (property "Reference" "U3" (at 238.76 128.27 0)
+    (property "Reference" "U5" (at 238.76 128.27 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "OP275" (at 238.76 138.43 0)
@@ -2402,9 +2402,9 @@
     (pin "4" (uuid c31631f9-73b4-4b1a-9ac9-9975380bc69b))
     (pin "8" (uuid 474de159-b4dd-4fcb-ba7a-a9760ca65066))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
-          (reference "U3") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -2427,7 +2427,7 @@
     )
     (pin "1" (uuid 4ae1da66-aadf-47cf-97ed-ee0ed1419839))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "J4") (unit 1)
         )
@@ -2438,7 +2438,7 @@
   (symbol (lib_id "Amplifier_Operational:OPA1679") (at 138.43 100.33 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e84c59a6-fa32-433b-b894-56e8f7c4070c)
-    (property "Reference" "U8" (at 138.43 95.25 0)
+    (property "Reference" "U4" (at 138.43 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "OPA1679" (at 139.7 105.41 0)
@@ -2465,9 +2465,9 @@
     (pin "11" (uuid 67608550-e822-4c21-bad3-5e15f16345cb))
     (pin "4" (uuid 3e94f651-b9ad-4328-80e5-253de1ebcd86))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
-          (reference "U8") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -2491,7 +2491,7 @@
     (pin "1" (uuid 0ecccbe8-0a9f-4ea2-9118-3de2ca11ad45))
     (pin "2" (uuid 966e991d-bc5b-4537-91c8-9f1dbed1f177))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "R15") (unit 1)
         )
@@ -2517,7 +2517,7 @@
     (pin "1" (uuid eba3b33e-a469-4137-bd6c-4e1985c80eef))
     (pin "2" (uuid f41cbe35-3f95-433a-b6d8-2daf27574556))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "R20") (unit 1)
         )
@@ -2543,7 +2543,7 @@
     (pin "1" (uuid 9e1a8191-782b-4e0a-9746-e8e52a870f48))
     (pin "2" (uuid fc6c644a-b6fb-44f7-a839-81a99c23f608))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/12e771ea-57d1-42c5-b86f-b0ea430594d2"
           (reference "R8") (unit 1)
         )

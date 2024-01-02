@@ -137,32 +137,32 @@
         )
       )
     )
-    (symbol "Amplifier_Operational:TL074" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
+    (symbol "Amplifier_Operational:TL072" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "TL074" (at 0 -5.08 0)
+      (property "Value" "TL072" (at 0 -5.08 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Footprint" "" (at -1.27 2.54 0)
+      (property "Footprint" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (at 1.27 5.08 0)
+      (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_locked" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "ki_keywords" "quad opamp" (at 0 0 0)
+      (property "ki_keywords" "dual opamp" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14" (at 0 0 0)
+      (property "ki_description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*" (at 0 0 0)
+      (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "TL074_1_1"
+      (symbol "TL072_1_1"
         (polyline
           (pts
             (xy -5.08 5.08)
@@ -186,7 +186,7 @@
           (number "3" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "TL074_2_1"
+      (symbol "TL072_2_1"
         (polyline
           (pts
             (xy -5.08 5.08)
@@ -210,62 +210,14 @@
           (number "7" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "TL074_3_1"
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy 5.08 0)
-            (xy -5.08 -5.08)
-            (xy -5.08 5.08)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin input line (at -7.62 2.54 0) (length 2.54)
-          (name "+" (effects (font (size 1.27 1.27))))
-          (number "10" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 7.62 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 -2.54 0) (length 2.54)
-          (name "-" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "TL074_4_1"
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy 5.08 0)
-            (xy -5.08 -5.08)
-            (xy -5.08 5.08)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin input line (at -7.62 2.54 0) (length 2.54)
-          (name "+" (effects (font (size 1.27 1.27))))
-          (number "12" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 -2.54 0) (length 2.54)
-          (name "-" (effects (font (size 1.27 1.27))))
-          (number "13" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 7.62 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "14" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "TL074_5_1"
+      (symbol "TL072_3_1"
         (pin power_in line (at -2.54 -7.62 90) (length 3.81)
           (name "V-" (effects (font (size 1.27 1.27))))
-          (number "11" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at -2.54 7.62 270) (length 3.81)
           (name "V+" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1335,13 +1287,6 @@
     (uuid bc9d9bab-fca4-40a3-bde1-8f30ba094ced)
   )
 
-  (text_box "Trenger 1.5k motstand her?"
-    (at 104.14 109.22 0) (size 10.16 8.89)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (effects (font (size 1.27 1.27)) (justify left top))
-    (uuid 9281d751-66b1-43dd-9751-c41ed587e5ce)
-  )
   (text_box "Saw offset and centering\nAdjust RV6 and RV7\nto center inverted saw around 0V\nwith an amplitude of\n+5V to -5V"
     (at 29.21 60.96 0) (size 123.19 41.91)
     (stroke (width 0) (type default))
@@ -1416,7 +1361,7 @@
     (pin "1" (uuid 9cf909d2-2568-47b0-bd9b-f66a5d77e84f))
     (pin "2" (uuid 20e91f8b-dc4a-4dc5-bfba-ca98d20efa9a))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "R37") (unit 1)
         )
@@ -1441,7 +1386,7 @@
     )
     (pin "1" (uuid 7e163bac-bf0d-4a13-ac07-cf02b22bb7c1))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "TP12") (unit 1)
         )
@@ -1467,7 +1412,7 @@
     (pin "1" (uuid 20c908b4-8c27-4c20-a334-e515656d470c))
     (pin "2" (uuid 167beed6-4b13-412f-996c-836bf544ca05))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "R45") (unit 1)
         )
@@ -1493,7 +1438,7 @@
     (pin "1" (uuid e15cdfbd-da17-4c2d-940b-cc27127f4bef))
     (pin "2" (uuid dbe53697-c460-46c4-8812-aac345f35c10))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "C23") (unit 1)
         )
@@ -1518,7 +1463,7 @@
     )
     (pin "1" (uuid 971e38f3-258c-4885-9b2c-1fdd4a0c81a4))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "#PWR025") (unit 1)
         )
@@ -1544,7 +1489,7 @@
     (pin "1" (uuid 785936d1-8ecf-445f-b94d-166dfe5f8359))
     (pin "2" (uuid 184aeb02-9981-4619-9bec-9099e583c5b2))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "R38") (unit 1)
         )
@@ -1569,7 +1514,7 @@
     )
     (pin "1" (uuid 9c45a639-2390-4fd8-841f-2f23879b017b))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "TP9") (unit 1)
         )
@@ -1595,7 +1540,7 @@
     (pin "1" (uuid 7c55bbe3-fb4c-48a4-804f-7fbdf6dc35ba))
     (pin "2" (uuid 639e45eb-3752-4473-8752-a67fa4477cb1))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "R54") (unit 1)
         )
@@ -1622,7 +1567,7 @@
     (pin "2" (uuid 144112d5-7185-4f6c-9d13-05c3d21482bd))
     (pin "3" (uuid fd368246-2cfc-4e89-8e8e-28465c106386))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "RV10") (unit 1)
         )
@@ -1639,7 +1584,7 @@
     (property "Value" "10k" (at 76.2 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" (at 76.2 72.39 0)
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3006P_Horizontal" (at 76.2 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 76.2 72.39 0)
@@ -1649,7 +1594,7 @@
     (pin "2" (uuid be6f3cb0-b84c-48b7-8597-5de733d61e16))
     (pin "3" (uuid 9ba06446-3f7a-4831-bc86-0d4efcd4c78b))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "RV7") (unit 1)
         )
@@ -1675,7 +1620,7 @@
     (pin "1" (uuid 6a5a9d13-a219-49d3-973b-6942aa14e218))
     (pin "2" (uuid 77521f0f-1a8e-4740-afe7-d9cc2bee0129))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "R47") (unit 1)
         )
@@ -1701,7 +1646,7 @@
     (pin "1" (uuid 48ed5510-c607-4163-84d0-adadc8eefba9))
     (pin "2" (uuid e796cf4c-98b9-495b-b886-72c1c9099b8f))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "R51") (unit 1)
         )
@@ -1726,7 +1671,7 @@
     )
     (pin "1" (uuid aca4fa63-76d9-499b-a665-4f20bbf32bdf))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "#PWR039") (unit 1)
         )
@@ -1751,7 +1696,7 @@
     )
     (pin "1" (uuid 8df5cb7e-ff65-437c-96ce-3d29d2be28a8))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "TP8") (unit 1)
         )
@@ -1777,7 +1722,7 @@
     (pin "1" (uuid 68928e3b-510c-439f-a270-0d467a8bbca9))
     (pin "2" (uuid 4d700c43-a9d8-4918-8ea9-6acc6334463b))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "R55") (unit 1)
         )
@@ -1803,7 +1748,7 @@
     (pin "1" (uuid 4d07de5b-8b74-4ef8-a95f-f8d0e4d12e3f))
     (pin "2" (uuid 244ef005-713a-4e0a-a239-4be0bfa64ce3))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "R52") (unit 1)
         )
@@ -1828,47 +1773,9 @@
     )
     (pin "1" (uuid 08b68af5-7ae2-46a5-9e11-c37a48b166cf))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "#PWR036") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Operational:TL074") (at 116.84 83.82 0) (mirror x) (unit 4)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5317146a-dbaa-4c4b-96e7-3b80797d2969)
-    (property "Reference" "U7" (at 116.84 78.74 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TL072" (at 118.11 88.9 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 115.57 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (at 118.11 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 210aa98b-4116-4a43-8d81-c1cfa993d7c2))
-    (pin "2" (uuid dae25dd0-2be9-4feb-85e0-3de3a60cd623))
-    (pin "3" (uuid f501c36a-a4de-4045-a1ba-177df77596b6))
-    (pin "5" (uuid 45ee45c0-a85d-44f1-8227-6ffe66087fd6))
-    (pin "6" (uuid 806b1428-4b6e-4fab-ae2e-cafaadeebb6d))
-    (pin "7" (uuid 6d70efda-9660-4b88-9098-4dfce48710cf))
-    (pin "10" (uuid 0d175005-1de5-40ac-8588-f3d747060b5c))
-    (pin "8" (uuid d957ef45-4c67-402f-a03e-a41a7e272945))
-    (pin "9" (uuid 3d92cc8c-822f-4ff5-9a00-df0664b656ca))
-    (pin "12" (uuid 05539006-2441-4315-b0da-29f29cbd7802))
-    (pin "13" (uuid f8b04cf1-2d58-405d-88da-a3660c223957))
-    (pin "14" (uuid 5afe8031-2d96-405e-8d71-dc7da70a1f33))
-    (pin "11" (uuid 51bc3c30-57b7-4f7c-9056-200d4332fd0a))
-    (pin "4" (uuid 9a5a87a6-8893-43ea-808f-86925f5d7016))
-    (instances
-      (project "vco_4"
-        (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
-          (reference "U7") (unit 4)
         )
       )
     )
@@ -1892,7 +1799,7 @@
     (pin "1" (uuid ee22989e-ec9e-4508-b75c-5c1b115fa298))
     (pin "2" (uuid 30a1368e-02b3-4716-a4d4-9d47af7ac33b))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "R50") (unit 1)
         )
@@ -1900,39 +1807,33 @@
     )
   )
 
-  (symbol (lib_id "Amplifier_Operational:TL074") (at 105.41 31.75 0) (unit 1)
+  (symbol (lib_id "Amplifier_Operational:TL072") (at 134.62 116.84 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 55a04852-0118-4281-bbc4-eaa62a0257ce)
-    (property "Reference" "U7" (at 105.41 26.67 0)
+    (uuid 56f9e4e2-9600-4df2-b993-e5e7fc823b5e)
+    (property "Reference" "U10" (at 134.62 111.76 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "TL072" (at 106.68 36.83 0)
+    (property "Value" "TL072" (at 134.62 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 104.14 29.21 0)
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 134.62 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (at 106.68 26.67 0)
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (at 134.62 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c1ba09a1-c0bf-4619-a67d-28438c58a3ae))
-    (pin "2" (uuid d388672e-805c-4a0f-9ce2-7eed4d30067a))
-    (pin "3" (uuid 64437fe8-4079-4552-96b2-e888302021c2))
-    (pin "5" (uuid bb0faa67-8083-4464-a267-dcdea765fa0c))
-    (pin "6" (uuid f1147dfa-215c-4f73-b322-aaf9e6d27fd8))
-    (pin "7" (uuid 53cc9989-ed82-4097-9699-79038d3925c9))
-    (pin "10" (uuid 3a25a8c5-4e65-4592-abd0-b4d6bb217aea))
-    (pin "8" (uuid 12281269-2988-4a2e-9220-39dc98e856ec))
-    (pin "9" (uuid 70c90d03-781d-4bf6-9432-28fc34f8e32e))
-    (pin "12" (uuid 69d30456-b54f-486e-8cce-8a3d4abd9231))
-    (pin "13" (uuid df70813b-cf61-4059-90d3-4b18f0119b8a))
-    (pin "14" (uuid f006e062-e2cb-44f2-9b3c-cd297561cee9))
-    (pin "11" (uuid eb240a83-3e16-4d13-9769-474e2aa1617a))
-    (pin "4" (uuid e78bcb7f-8804-4187-8fad-37ff302a101e))
+    (pin "6" (uuid e1f66b1f-c3a8-4b67-b94c-af50b0731a49))
+    (pin "5" (uuid 3ac73781-f75b-42a3-a1ab-f713fc3b83d4))
+    (pin "4" (uuid 957eed72-dcab-4f71-bb0f-eba550aec0de))
+    (pin "7" (uuid 8bed68e1-94a1-4cfd-8095-e79ec8ae32e2))
+    (pin "1" (uuid 96cf91dc-a2b6-434f-86ee-63b19536ffad))
+    (pin "2" (uuid f48c87ce-159d-4adc-9604-8cdfb4dc4317))
+    (pin "8" (uuid 068c6a3c-84a5-4c71-8f4e-5d62bafa84c1))
+    (pin "3" (uuid 3dc85db2-f082-432f-bd95-6387cdc879eb))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
-          (reference "U7") (unit 1)
+          (reference "U10") (unit 2)
         )
       )
     )
@@ -1955,50 +1856,9 @@
     )
     (pin "1" (uuid 9a5611de-7c19-4b2f-be0e-f09c3c129c23))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "#PWR038") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Operational:OPA1679") (at 109.22 153.67 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 57bd22c8-4890-4320-a9b8-d8d0c27d4117)
-    (property "Reference" "U10" (at 109.22 148.59 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TL072" (at 110.49 158.75 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 107.95 156.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf" (at 110.49 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 61e6511b-f82d-4145-8edb-b7214896528f))
-    (pin "2" (uuid ae4e89ea-706c-40d0-83be-03810bd7b410))
-    (pin "3" (uuid a1fe3856-f4a7-4073-b63a-38a840ab14a2))
-    (pin "5" (uuid 5c361b91-ee51-4b6e-876d-a1b0e0ed7ceb))
-    (pin "6" (uuid 10f4913d-02cd-458f-ac0d-04a79d106ff2))
-    (pin "7" (uuid c13d12e1-46c7-45ed-9809-63297ce4d405))
-    (pin "10" (uuid def73f62-f84f-4a90-a2a7-2e1489286aa1))
-    (pin "8" (uuid 6d389104-b0da-4fb7-9446-f48ec3aabb8d))
-    (pin "9" (uuid 1eebf689-c5d6-4603-9902-427239efa464))
-    (pin "12" (uuid 3a255abb-777b-43a9-9c30-cad04f065114))
-    (pin "13" (uuid 44b181e2-08c7-40a5-b2f4-96b829e96362))
-    (pin "14" (uuid bf81b531-607d-4759-bd84-ab5cae8ea886))
-    (pin "11" (uuid 9f0cd507-6c66-46d6-ac3c-3dc69c03333e))
-    (pin "4" (uuid 56384460-adfe-4252-8e81-25398370b9bd))
-    (instances
-      (project "vco_4"
-        (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/87d5242e-8e50-4c64-89d7-26c2f1bb8e69"
-          (reference "U10") (unit 1)
-        )
-        (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
-          (reference "U2") (unit 1)
         )
       )
     )
@@ -2022,7 +1882,7 @@
     (pin "1" (uuid ebb2ee98-16d5-414a-ab08-c24fb74434c3))
     (pin "2" (uuid f6b08d3a-88a0-41a7-a668-ffeb7b5c7053))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "R59") (unit 1)
         )
@@ -2047,7 +1907,7 @@
     )
     (pin "1" (uuid 000d72a7-2d0b-46b7-b91d-519537d5489f))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "J8") (unit 1)
         )
@@ -2073,50 +1933,9 @@
     (pin "1" (uuid d1350c3c-5025-4bac-a7e6-39f8348ceac4))
     (pin "2" (uuid 9c1fa842-b762-4e44-a8b1-e23a7dbcdfb9))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "R48") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Operational:OPA1679") (at 142.24 156.21 0) (mirror x) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5fe302f9-c1f0-4074-b021-fd8e7547762b)
-    (property "Reference" "U10" (at 142.24 151.13 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TL072" (at 143.51 161.29 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 140.97 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf" (at 143.51 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 06e4e486-48bc-4cf4-819b-8d52409d7d10))
-    (pin "2" (uuid a1953c15-858e-454f-b467-3f44df297bde))
-    (pin "3" (uuid 094f2896-83b5-41d2-9358-b08a19c46ed3))
-    (pin "5" (uuid 89c9bb6f-75b8-4780-bfc9-fc16dc3b7edf))
-    (pin "6" (uuid 658e5733-007c-4779-8bce-9ddb9ce827a7))
-    (pin "7" (uuid 3ee7245c-ee97-4a44-9352-2be8908359ad))
-    (pin "10" (uuid 2c24c049-0d06-4b39-a6e7-010dbcfac97c))
-    (pin "8" (uuid 4062d5df-05d0-452f-861c-1a647194b538))
-    (pin "9" (uuid 4d60f3be-ae23-4a94-8320-69d0a967646f))
-    (pin "12" (uuid 94344834-261b-4352-985e-35e23d09465b))
-    (pin "13" (uuid 791cf9af-ab66-4f87-bb67-3038e97f96f2))
-    (pin "14" (uuid 8348c10e-6284-4abb-91e9-145a49929175))
-    (pin "11" (uuid 132b192b-5653-4fc8-a7e9-b26d9ebe0809))
-    (pin "4" (uuid 9c7537ad-9b7a-4e8a-9f55-0f0ac3127b9a))
-    (instances
-      (project "vco_4"
-        (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/87d5242e-8e50-4c64-89d7-26c2f1bb8e69"
-          (reference "U10") (unit 2)
-        )
-        (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
-          (reference "U2") (unit 2)
         )
       )
     )
@@ -2140,7 +1959,7 @@
     (pin "1" (uuid 15891bc4-3bb8-409b-9fc7-dd38d193e17b))
     (pin "2" (uuid 5b8bd084-a249-4831-bae4-17e37745d224))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "R39") (unit 1)
         )
@@ -2172,7 +1991,7 @@
     (pin "1" (uuid bbb6ca70-99e2-437a-b9e6-f4354f86d881))
     (pin "2" (uuid 35321415-c3d1-4c55-9d88-80902f953aa4))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "D4") (unit 1)
         )
@@ -2198,7 +2017,7 @@
     (pin "1" (uuid 432ae007-6554-4057-9657-3f10d4894baa))
     (pin "2" (uuid 69c2a835-6b50-4f3a-9c72-68f1922ecf6e))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "R35") (unit 1)
         )
@@ -2224,7 +2043,7 @@
     (pin "1" (uuid fe994f69-bdf4-4707-8a4c-73bf9f0586db))
     (pin "2" (uuid 47bbeb9f-3da5-40e3-b1fc-0f9bccff0073))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "R60") (unit 1)
         )
@@ -2241,7 +2060,7 @@
     (property "Value" "10k" (at 46.99 92.71 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" (at 46.99 92.71 0)
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3006P_Horizontal" (at 46.99 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 46.99 92.71 0)
@@ -2251,7 +2070,7 @@
     (pin "2" (uuid 86c3f5b8-fbfc-4195-b335-807f3e695b11))
     (pin "3" (uuid 519f1acf-f320-4224-ab92-fa79588b7186))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "RV6") (unit 1)
         )
@@ -2268,7 +2087,7 @@
     (property "Value" "10k" (at 111.76 43.18 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" (at 111.76 43.18 0)
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3006P_Horizontal" (at 111.76 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 111.76 43.18 0)
@@ -2278,9 +2097,47 @@
     (pin "2" (uuid 656c7326-94c5-4bfc-93d3-d00d90ac994e))
     (pin "3" (uuid 612b25b7-e66a-48be-947f-226f59573cb3))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "RV9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Amplifier_Operational:OPA1679") (at 69.85 81.28 0) (mirror x) (unit 3)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7af9e824-4ff7-4270-8360-3e014ff6ab7c)
+    (property "Reference" "U9" (at 69.85 76.2 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "OPA1679" (at 71.12 86.36 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 68.58 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf" (at 71.12 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "13" (uuid f6698b3e-8de7-4d6d-b2b5-5685cae8e256))
+    (pin "9" (uuid a4870388-60db-45b4-b714-72e1f78dec75))
+    (pin "14" (uuid a39c39b7-e5b6-4431-838e-3460bd48e83e))
+    (pin "2" (uuid 8b82a925-a05f-4343-89bd-fff8515fce04))
+    (pin "11" (uuid 329a80fc-8590-4496-a321-4de4962b6546))
+    (pin "8" (uuid 2e0cde09-e16d-401b-bd20-09cd8834234b))
+    (pin "10" (uuid 265e474f-53dc-4719-b9d8-5727b91e5c83))
+    (pin "7" (uuid c4c07d13-f26e-4569-966f-fed6198c3d3d))
+    (pin "4" (uuid 46fc6751-1285-460d-892c-1725c04a072e))
+    (pin "1" (uuid 9ec626ca-898b-4f4e-a711-f9e610eb971f))
+    (pin "12" (uuid 0c85189b-5d02-41a4-bba1-8e96d957402c))
+    (pin "6" (uuid d29e8410-faca-4504-91f2-9fced1f99479))
+    (pin "3" (uuid bcd75f15-ba22-4c73-b5c9-df8fea344966))
+    (pin "5" (uuid bffa37ca-dced-42bf-8e4c-2c7d2fcf9315))
+    (instances
+      (project "vco_1"
+        (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
+          (reference "U9") (unit 3)
         )
       )
     )
@@ -2304,7 +2161,7 @@
     (pin "1" (uuid 61896623-64f8-4cbb-a1aa-070bdfdc818d))
     (pin "2" (uuid a8749820-2360-4309-bcdc-ca6ead3ff5ea))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "C22") (unit 1)
         )
@@ -2330,7 +2187,7 @@
     (pin "1" (uuid b5449c90-be25-407d-8d76-75a91b8e9ab0))
     (pin "2" (uuid 7699730d-a4e8-44fb-a0fe-a4b62192bb42))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "R49") (unit 1)
         )
@@ -2355,7 +2212,7 @@
     )
     (pin "1" (uuid d404c0bf-8704-4560-8ab1-d97889609023))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "J9") (unit 1)
         )
@@ -2381,9 +2238,47 @@
     (pin "1" (uuid 102f2ea5-fcf3-4e86-b7ca-ff06783544a5))
     (pin "2" (uuid 73c3a43a-9dae-4b9e-ba70-df30eb604639))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "C29") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Amplifier_Operational:OPA1679") (at 116.84 83.82 0) (mirror x) (unit 4)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9ac570bd-17e8-4f36-aa80-ea693ef1a5c2)
+    (property "Reference" "U9" (at 116.84 78.74 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "OPA1679" (at 118.11 88.9 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 115.57 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf" (at 118.11 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "13" (uuid f6698b3e-8de7-4d6d-b2b5-5685cae8e256))
+    (pin "9" (uuid a4870388-60db-45b4-b714-72e1f78dec75))
+    (pin "14" (uuid a39c39b7-e5b6-4431-838e-3460bd48e83e))
+    (pin "2" (uuid 8b82a925-a05f-4343-89bd-fff8515fce04))
+    (pin "11" (uuid 329a80fc-8590-4496-a321-4de4962b6546))
+    (pin "8" (uuid 2e0cde09-e16d-401b-bd20-09cd8834234b))
+    (pin "10" (uuid 265e474f-53dc-4719-b9d8-5727b91e5c83))
+    (pin "7" (uuid c4c07d13-f26e-4569-966f-fed6198c3d3d))
+    (pin "4" (uuid 46fc6751-1285-460d-892c-1725c04a072e))
+    (pin "1" (uuid 9ec626ca-898b-4f4e-a711-f9e610eb971f))
+    (pin "12" (uuid 0c85189b-5d02-41a4-bba1-8e96d957402c))
+    (pin "6" (uuid d29e8410-faca-4504-91f2-9fced1f99479))
+    (pin "3" (uuid bcd75f15-ba22-4c73-b5c9-df8fea344966))
+    (pin "5" (uuid bffa37ca-dced-42bf-8e4c-2c7d2fcf9315))
+    (instances
+      (project "vco_1"
+        (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
+          (reference "U9") (unit 4)
         )
       )
     )
@@ -2406,7 +2301,7 @@
     )
     (pin "1" (uuid 1eb3032d-c26b-40bd-b045-a78d8cae7685))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "J6") (unit 1)
         )
@@ -2432,9 +2327,47 @@
     (pin "1" (uuid ff3cdcae-a219-4c35-9fd2-6418692dfbc4))
     (pin "2" (uuid 2eb92839-8e9c-4313-bc71-bf2f8d924ecb))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "R53") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Amplifier_Operational:OPA1679") (at 142.24 156.21 0) (mirror x) (unit 2)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a3fe0925-1079-440c-b626-abac228bb1ad)
+    (property "Reference" "U9" (at 142.24 151.13 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "OPA1679" (at 143.51 161.29 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 140.97 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf" (at 143.51 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "13" (uuid f6698b3e-8de7-4d6d-b2b5-5685cae8e256))
+    (pin "9" (uuid a4870388-60db-45b4-b714-72e1f78dec75))
+    (pin "14" (uuid a39c39b7-e5b6-4431-838e-3460bd48e83e))
+    (pin "2" (uuid 8b82a925-a05f-4343-89bd-fff8515fce04))
+    (pin "11" (uuid 329a80fc-8590-4496-a321-4de4962b6546))
+    (pin "8" (uuid 2e0cde09-e16d-401b-bd20-09cd8834234b))
+    (pin "10" (uuid 265e474f-53dc-4719-b9d8-5727b91e5c83))
+    (pin "7" (uuid c4c07d13-f26e-4569-966f-fed6198c3d3d))
+    (pin "4" (uuid 46fc6751-1285-460d-892c-1725c04a072e))
+    (pin "1" (uuid 9ec626ca-898b-4f4e-a711-f9e610eb971f))
+    (pin "12" (uuid 0c85189b-5d02-41a4-bba1-8e96d957402c))
+    (pin "6" (uuid d29e8410-faca-4504-91f2-9fced1f99479))
+    (pin "3" (uuid bcd75f15-ba22-4c73-b5c9-df8fea344966))
+    (pin "5" (uuid bffa37ca-dced-42bf-8e4c-2c7d2fcf9315))
+    (instances
+      (project "vco_1"
+        (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
+          (reference "U9") (unit 2)
         )
       )
     )
@@ -2464,47 +2397,9 @@
     (pin "1" (uuid 383c6b9e-f6e0-4c77-85cb-f222aa997eb4))
     (pin "2" (uuid 22f85100-8e24-4f49-b80f-9d858d487477))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "D3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Operational:TL074") (at 134.62 116.84 0) (mirror x) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid aa7dbf39-cdcd-47bf-8ae0-8a9b2cb64204)
-    (property "Reference" "U7" (at 134.62 111.76 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TL072" (at 135.89 121.92 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 133.35 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (at 135.89 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7044de9e-9073-43b5-a743-431a0e1faabb))
-    (pin "2" (uuid 78c47e8c-7c72-4a0e-bc9b-cd9396639fee))
-    (pin "3" (uuid 81bc74a4-67ce-40d9-93b4-fbc9eb9d43fb))
-    (pin "5" (uuid c47ef52d-d459-4036-bebf-fc051ee0d8b9))
-    (pin "6" (uuid c9243087-cfda-45b2-9c3c-701e6185e112))
-    (pin "7" (uuid 9905d611-226c-4a17-bf0f-3a1f076b5b11))
-    (pin "10" (uuid 007f69ba-c79e-4a4b-b6c7-292b585cec61))
-    (pin "8" (uuid 2feddd42-2184-4586-a9ed-84890f787294))
-    (pin "9" (uuid 7cc8245a-a96c-4229-ac84-3045b4225412))
-    (pin "12" (uuid 514ccab8-bcf8-4d52-820c-07c30bed6d60))
-    (pin "13" (uuid d6744574-6a1a-4eb0-af01-f226a15766c9))
-    (pin "14" (uuid b3b44106-c362-42e1-b437-3e6b1cb76e05))
-    (pin "11" (uuid 099bbb0e-7e76-418d-8cb4-c68142dcf2ab))
-    (pin "4" (uuid e1bdde9f-cfb9-4e3b-b62a-695acf5673f9))
-    (instances
-      (project "vco_4"
-        (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
-          (reference "U7") (unit 2)
         )
       )
     )
@@ -2528,7 +2423,7 @@
     (pin "1" (uuid 31892f88-4166-488e-8481-c3efd6e5c51a))
     (pin "2" (uuid 2a5d0225-6f20-4b88-a0bc-51bf872fedb5))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "R61") (unit 1)
         )
@@ -2554,7 +2449,7 @@
     (pin "1" (uuid 6fd18623-ee0f-41b8-9894-10ab00ce2c76))
     (pin "2" (uuid 2d8a2cf7-5ad6-4ee8-9904-902954225fe0))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "R34") (unit 1)
         )
@@ -2579,7 +2474,7 @@
     )
     (pin "1" (uuid 547031a4-af7b-4aa8-ab23-4dc1a45ab566))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "#PWR034") (unit 1)
         )
@@ -2605,7 +2500,7 @@
     (pin "1" (uuid a746b84a-2c43-4613-befa-899719f0c95c))
     (pin "2" (uuid 5968d40f-68bf-40d9-8711-4d03f2ccf965))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "R33") (unit 1)
         )
@@ -2631,7 +2526,7 @@
     (pin "1" (uuid ddfd52d2-0fca-4644-924c-69ecd5ecb8bb))
     (pin "2" (uuid bfaf4d1f-1441-4484-b166-f90626f2dd5e))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "R62") (unit 1)
         )
@@ -2656,47 +2551,9 @@
     )
     (pin "1" (uuid fcfc370b-cceb-4bb0-936c-65027279ae6d))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "TP13") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Operational:TL074") (at 69.85 81.28 0) (mirror x) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c7ffe5fd-d36b-4f2f-a948-88384610c483)
-    (property "Reference" "U7" (at 69.85 76.2 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TL072" (at 71.12 86.36 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 68.58 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (at 71.12 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 26eb9355-bc75-45a5-8255-de6b56270f70))
-    (pin "2" (uuid a712c308-8dec-411b-a5af-b130b9acf60f))
-    (pin "3" (uuid 684c341e-04b1-4052-92a9-90a6f50e8d38))
-    (pin "5" (uuid b2bf89eb-ba77-4657-8b9d-059ef1d953f0))
-    (pin "6" (uuid c71cc5a6-1050-4d9b-be7e-c0df3d02e48a))
-    (pin "7" (uuid 604f4947-9fed-4450-b2fe-da7da410e2b6))
-    (pin "10" (uuid 6df743f7-da98-4207-ac25-e831e06f251d))
-    (pin "8" (uuid e39ac220-9c08-4a5f-ac66-f6df02059029))
-    (pin "9" (uuid dc596174-aa66-4d81-8ea2-bb45186ea574))
-    (pin "12" (uuid 38df8f13-a039-4387-ade0-ce3dd5a58d05))
-    (pin "13" (uuid 736a5ced-13e9-4e72-9345-ff11eaa3ca07))
-    (pin "14" (uuid 91485601-7467-4100-ac46-37bdd13c479e))
-    (pin "11" (uuid 560f3403-8947-4003-81fd-107676ba5c6f))
-    (pin "4" (uuid c69c2708-eb84-425e-b83c-2d9c7915a147))
-    (instances
-      (project "vco_4"
-        (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
-          (reference "U7") (unit 3)
         )
       )
     )
@@ -2720,7 +2577,7 @@
     (pin "1" (uuid 8784a3da-3333-4174-9433-1f0b5bc54115))
     (pin "2" (uuid 309c0b69-45df-405b-b5bb-045386c6c803))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "R36") (unit 1)
         )
@@ -2746,7 +2603,7 @@
     (pin "1" (uuid 3c91aac7-41b7-43b3-aedf-54a230a97d10))
     (pin "2" (uuid 03c68b0d-174b-459e-8c40-8e07cb64248b))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "R46") (unit 1)
         )
@@ -2771,7 +2628,7 @@
     )
     (pin "1" (uuid 002aa70c-2974-4031-beb7-33250747d829))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "J10") (unit 1)
         )
@@ -2796,7 +2653,7 @@
     )
     (pin "1" (uuid 5b012ced-095a-48c1-993a-7d62c5dde99a))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "J7") (unit 1)
         )
@@ -2813,7 +2670,7 @@
     (property "Value" "10k" (at 95.25 19.05 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" (at 95.25 19.05 0)
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3006P_Horizontal" (at 95.25 19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 95.25 19.05 0)
@@ -2823,7 +2680,7 @@
     (pin "2" (uuid 25320aed-b848-42c5-8480-aac5f1a7360c))
     (pin "3" (uuid a9d3fd71-469d-487d-8331-19a396f58f85))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "RV8") (unit 1)
         )
@@ -2855,9 +2712,79 @@
     (pin "1" (uuid fe4b9f85-4cda-4ecc-b8c8-646baa30f384))
     (pin "2" (uuid 0194a0a2-8e9f-428c-a46b-a486fc5ed4c9))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "D2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Amplifier_Operational:OPA1679") (at 105.41 31.75 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f21dd1a7-2b97-4ed2-9849-e2dfd9ea06e5)
+    (property "Reference" "U9" (at 105.41 26.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "OPA1679" (at 106.68 36.83 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 104.14 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf" (at 106.68 26.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "13" (uuid f6698b3e-8de7-4d6d-b2b5-5685cae8e256))
+    (pin "9" (uuid a4870388-60db-45b4-b714-72e1f78dec75))
+    (pin "14" (uuid a39c39b7-e5b6-4431-838e-3460bd48e83e))
+    (pin "2" (uuid 8b82a925-a05f-4343-89bd-fff8515fce04))
+    (pin "11" (uuid 329a80fc-8590-4496-a321-4de4962b6546))
+    (pin "8" (uuid 2e0cde09-e16d-401b-bd20-09cd8834234b))
+    (pin "10" (uuid 265e474f-53dc-4719-b9d8-5727b91e5c83))
+    (pin "7" (uuid c4c07d13-f26e-4569-966f-fed6198c3d3d))
+    (pin "4" (uuid 46fc6751-1285-460d-892c-1725c04a072e))
+    (pin "1" (uuid 9ec626ca-898b-4f4e-a711-f9e610eb971f))
+    (pin "12" (uuid 0c85189b-5d02-41a4-bba1-8e96d957402c))
+    (pin "6" (uuid d29e8410-faca-4504-91f2-9fced1f99479))
+    (pin "3" (uuid bcd75f15-ba22-4c73-b5c9-df8fea344966))
+    (pin "5" (uuid bffa37ca-dced-42bf-8e4c-2c7d2fcf9315))
+    (instances
+      (project "vco_1"
+        (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
+          (reference "U9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Amplifier_Operational:TL072") (at 109.22 153.67 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f551439f-a460-4842-bcbd-420d05d77807)
+    (property "Reference" "U10" (at 109.22 148.59 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TL072" (at 109.22 158.75 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 109.22 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (at 109.22 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "6" (uuid e1f66b1f-c3a8-4b67-b94c-af50b0731a49))
+    (pin "5" (uuid 3ac73781-f75b-42a3-a1ab-f713fc3b83d4))
+    (pin "4" (uuid 957eed72-dcab-4f71-bb0f-eba550aec0de))
+    (pin "7" (uuid 8bed68e1-94a1-4cfd-8095-e79ec8ae32e2))
+    (pin "1" (uuid 96cf91dc-a2b6-434f-86ee-63b19536ffad))
+    (pin "2" (uuid f48c87ce-159d-4adc-9604-8cdfb4dc4317))
+    (pin "8" (uuid 068c6a3c-84a5-4c71-8f4e-5d62bafa84c1))
+    (pin "3" (uuid 3dc85db2-f082-432f-bd95-6387cdc879eb))
+    (instances
+      (project "vco_1"
+        (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
+          (reference "U10") (unit 1)
         )
       )
     )
@@ -2880,7 +2807,7 @@
     )
     (pin "1" (uuid 5b1267da-95be-41b6-b1d6-e8169c550d68))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "#PWR019") (unit 1)
         )
@@ -2905,7 +2832,7 @@
     )
     (pin "1" (uuid c5c03cf0-5f88-4d43-b9c6-f3d513f9aba8))
     (instances
-      (project "vco_4"
+      (project "vco_1"
         (path "/70220a38-a1dc-4685-8cc5-8bfe117637e9/f1e97eaa-af1b-4a8e-9573-e46f1cc7f785"
           (reference "#PWR040") (unit 1)
         )
